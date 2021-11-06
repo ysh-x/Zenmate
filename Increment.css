@@ -1,0 +1,90 @@
+* {
+    background: url('./2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: monospace;
+    color: lightcoral;
+}
+
+#okay {
+    font-size: 80pt;
+    color: #059142;
+}
+
+option,
+select {
+    font-size: 18pt;
+    color: #059142;
+    font-weight: 900;
+    opacity: 70%;
+}
+
+.header {
+    margin: 0px;
+    display: block;
+    width: 100%;
+}
+
+.header h1 {
+    color: #059142;
+    font-size: 30pt;
+    font-weight: 1000;
+    padding: 10px;
+}
+
+.main {
+    margin: auto;
+    margin-top: 0px;
+    width: max-content;
+}
+
+.panel {
+    font-size: 18pt;
+    float: left;
+}
+
+.butPanel {
+    font-size: 18pt;
+    float: left;
+}
+
+.panel p {
+    display: inline-block;
+    color: #476930;
+    font-weight: 800;
+}
+
+.panel input {
+    font-size: 18pt;
+    color: #476930;
+    text-align: center;
+}
+
+#start {
+    margin: 10px;
+    height: 80px;
+    width: 200px;
+    border-radius: 5px;
+    color: #476930;
+    border: #476930 solid 1px;
+    font-size: 20pt;
+    transition: all 0.4s;
+}
+
+#stop {
+    margin: 10px;
+    height: 80px;
+    width: 200px;
+    border-radius: 5px;
+    color: #476930;
+    border: #476930 solid 1px;
+    font-size: 20pt;
+    transition: all 0.4s;
+}
+
+#start:hover,
+#stop:hover {
+    font-weight: 900;
+    border: #476930 solid 3px;
+}

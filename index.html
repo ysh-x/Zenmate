@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Increment.css">
+    <title>Zenmate</title>
+    <script type="text/javascript" src="./Increment.js">
+    </script>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Zen Mate</h1>
+    </div>
+
+    <br>
+    <div class="main">
+        <div class="panel">
+            <p>I would like to meditate for</p>
+            <select name="min" id="min" size="1">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="4">4</option>
+                <option value="6">6</option>
+                <option value="8">8</option>
+                <option value="10">10</option>
+                <option value="12">12</option>
+                <option value="14">14</option>
+                <option value="16">16</option>
+                <option value="18">18</option>
+                <option value="20">20</option>
+            </select>
+            <p>Minutes</p>
+        </div>
+        <h1 id="okay"></h1>
+        <div class="butPanel">
+            <button id="start" onclick="start()">Start</button>
+            <button id="stop" onclick="stop()">Stop</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
